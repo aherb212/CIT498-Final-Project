@@ -1,0 +1,170 @@
+/* Austin Herb */
+/* CIT498 Final Project */
+
+.nav{
+    background-color: #dce7ef;
+}
+
+.nav ul li{
+  padding-right: 5px;
+}
+
+.middle{
+    background-color: #dce7ef;
+    padding-bottom: 2in;
+    margin-bottom: 2in;
+}
+
+.middle .col-head{
+    text-align: center;
+}
+
+body{
+    background-color: #dce7ef;
+}
+
+footer{
+    background-color: #dce7ef;
+    text-align: center; 
+}
+
+.col-sm ul li{
+    list-style-type: none;
+}
+
+.col-sm h5{
+    padding-left: 0.4in;
+}
+
+.col-sm p{
+    padding-left: 5px;
+    padding-right: 8px;
+}
+
+.col-sm h3{
+    text-align: center;
+}
+
+.col-head h3{
+    text-align: center;
+}
+
+.col-sm img{
+    height: 250px;
+    width: 325px;
+}
+
+.property_photo img{
+    height: 200px;
+    width: 250px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.property_details ul li{
+    list-style-type: circle;
+    text-align: left;
+    
+}
+
+
+/* Design for 'Admin Pannel' subdomain */
+#admin_panel.existing_users_container table.existing_users_table, th, td{
+  border-bottom: 1px solid rgb(173, 172, 172);
+  padding-right: 5px;
+}
+
+#admin_panel{
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-bottom: 5px;
+}
+
+#admin_panel.existing_users_container table.existing_users_table, tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.maintenance_requests_container{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+
+/* [SITE]
+html, body, textarea, input{
+    font-family: arial;
+  } */
+   
+  /* [PERIOD SELECTOR] */
+  #selector{
+    padding: 10px;
+  }
+  #selector select, #selector input[type=button]{
+    padding: 10px;
+    font-size: 1.2em;
+  }
+  
+  /* [CALENDAR] */
+
+  #calcontainer{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #calendar{
+    width: 100%;
+    border-collapse: collapse;
+  }
+  #calendar tr td{
+    border: 1px solid #ccc;
+    padding: 20px 5px;
+    width: 14.28%;
+    vertical-align: top;
+  }
+  td.blank{
+    background: #eee;
+  }
+  tr.day td{
+    background: #ba3423;
+    color: #fff;
+    font-weight: bold;
+  }
+  .evt{
+    margin-top: 5px;
+    padding: 5px;
+    background: #fff2dd;
+    color: #555;
+    font-size: 0.75em;
+    max-height: 5em;
+    overflow: hidden;
+  }
+  
+  /* [ADD/EDIT EVENT] */
+  #event form{
+    margin-top: 10px;
+    padding: 10px;
+    background: #f2f2f2;
+  }
+  #event h1{
+    padding: 0;
+    margin: 0;
+  }
+  #evt-date{
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  #event textarea{
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    min-width: 320px;
+    resize: none;
+  }
+  #event input[type=button], #event input[type=submit]{
+    padding: 10px;
+    font-size: 1.05em;
+  }
+
+
+
